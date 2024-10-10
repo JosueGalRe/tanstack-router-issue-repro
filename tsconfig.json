@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "incremental": false,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": ["node", "react", "vite/client"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@t/*": ["./types/*"],
+      "@utils/*": ["./utils/*"],
+      "@routes/*": ["../routes/*"]
+    }
+  },
+  "include": ["./src"]
+}
